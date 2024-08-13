@@ -18,6 +18,21 @@ describe('Validar que ingrese a la pantalla de registro usuario', () => {
       cy.get('[type="submit"]').click();
       cy.get('.ml-3').should('be.visible');
       cy.get('.ml-4').click();
+      //prueba para el sign in
+      cy.get('.text-4xl').should('be.visible');
+      cy.get('.form-control.w-full > .label > .label-text').should('be.visible');
+      cy.get('#email').type('Martha1222@hotmail.com');
+      cy.get('.mb-4 > .label > .label-text').should('be.visible');
+      cy.get('.join > #password').type('Martha123');
+      cy.get('.join > .btn').click();
+      cy.get('.join > .btn').click();
+      cy.get('[type="submit"]').click();
+      //Validar que se visualicen los mensajes de la pantalla principal.
+      cy.get('.text-xl').should('be.visible');
+      cy.get('.font-extrabold').should('be.visible');
+      cy.get('.max-w-lg').should('be.visible');
+      cy.get('img').should('be.visible');
+      cy.get('img').click();
     
     })
   })
