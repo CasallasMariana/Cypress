@@ -1,0 +1,18 @@
+#Estos son los archivos que se van a ignorar
+
+#Ignora capturas y videos realizados por Cypress
+cypress/screenshots/
+cypress/videos/
+#Ignorar archivos descargados durante las pruebas
+cypress/downloads/
+#Ignorar archivos de configuración sensibles
+cypress.env.json
+#Ignorar dependencias de node.js
+node_modules/
+#Ignorar lock files de npm/yarn
+package-lock.json
+yarn.lock
+#Ignorar los fixtures
+fixtures
+#Ignorar el commands
+commands.js
