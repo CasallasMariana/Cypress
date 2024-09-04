@@ -1,4 +1,4 @@
-describe("mi priemera prueba en cypress",()=>{
+describe("mi primera prueba en cypress",()=>{
     beforeEach//es una función que se ejecuta antes de cada prueba (it) en un bloque de pruebas (describe). 
               //Su propósito principal es configurar un estado inicial o realizar acciones repetitivas que deben ocurrir antes de cada prueba individual.
     (() => {
