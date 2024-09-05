@@ -1,2 +1,2 @@
 # Cypress
-Technical test automation with cypress
+Comprehensive End-to-End Testing with Cypress: Automate, Validate, and Enhance Your Web Applications.
