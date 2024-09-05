@@ -14,5 +14,3 @@ package-lock.json
 yarn.lock
 #Ignorar los fixtures
 fixtures
-#Ignorar el commands
-commands.js
